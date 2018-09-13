@@ -2,7 +2,7 @@
 
 
 
-var mySearchString = $("#q-search-term").val(); // id="num-of-reccords"
+var mySearchString = $("#q-search-term").text(); // id="num-of-reccords"
 var mySearchNumOfRecords = $("#num-of-reccords").val(); // id="num-of-reccords"
 console.log("mySearchString = " + mySearchString);
 // console.log("mySearchString = " + mySearchString)
